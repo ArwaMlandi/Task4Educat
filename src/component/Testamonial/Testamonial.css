@@ -1,0 +1,59 @@
+.testamonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: rgb(227, 227, 233);
+}
+.wraper_test {
+  display: grid;
+  align-items: flex-end;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.reviewTesta {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(56, 142, 253);
+  padding: 3rem;
+}
+.carousol {
+  width: 100%;
+}
+.test_carsoul {
+  padding: 2rem;
+}
+.testamonial_review {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem;
+  cursor: grab;
+}
+
+.testamonial_review p {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.testamonial_review-span {
+  color: rgb(56, 142, 253);
+}
+
+@media screen and (max-width: 766px) {
+  .carousol {
+    width: 120%;
+    padding: 5px;
+  }
+  .testamonial_review p {
+    display: flex;
+    align-items: center;
+    width: 80%;
+  }
+}
