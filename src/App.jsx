@@ -22,19 +22,19 @@ const Layout = () => {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Task4Educat",
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: "",
         element: <Home />,
       },
       {
-        path: "/about",
+        path: "about",
         element: <About />,
       },
       {
-        path: "/news",
+        path: "news",
         element: <News />,
       },
     ],
