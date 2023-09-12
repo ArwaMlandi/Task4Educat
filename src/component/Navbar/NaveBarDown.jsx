@@ -19,7 +19,7 @@ function NaveBarDown() {
       </div>
       <ul className="menue" style={{ top: menueopen && "0" }}>
         <li className={`nav-item ${activeItem === "home" ? "active" : ""}`}>
-          <Link onClick={() => handleClick("home")} to="/">
+          <Link onClick={() => handleClick("home")} to="/Task4Educat/">
             Home
           </Link>
         </li>
@@ -53,7 +53,7 @@ function NaveBarDown() {
           </Link>
         </li>
         <li className={`nav-item ${activeItem === "news" ? "active" : ""}`}>
-          <Link to="/news" onClick={() => handleClick("news")}>
+          <Link to="/Task4Educat/news" onClick={() => handleClick("news")}>
             News
           </Link>
         </li>
@@ -64,7 +64,7 @@ function NaveBarDown() {
         </li>
 
         <li className={`nav-item ${activeItem === "about" ? "active" : ""}`}>
-          <Link to="/about" onClick={() => handleClick("about")}>
+          <Link to="/Task4Educat/about" onClick={() => handleClick("about")}>
             About
           </Link>
         </li>
